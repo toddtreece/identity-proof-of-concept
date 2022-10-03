@@ -25,7 +25,7 @@ func log(ctx context.Context, t string) {
 		id = fmt.Sprintf("%v", err)
 	}
 
-	fmt.Println(t, "id:", id, "email:", email, "time:", timeString)
+	fmt.Printf("%s\nid: %s\nemail: %s\ntime: %s\n\n", t, id, email, timeString)
 }
 
 func main() {
